@@ -1,9 +1,9 @@
-// Получаем элементы DOM
+
 const form = document.getElementById('todo-form');
 const input = document.getElementById('todo-input');
 const list = document.getElementById('todo-list');
 
-// Обработка отправки формы
+
 form.addEventListener('submit', function(event) {
     event.preventDefault();
     const text = input.value.trim();
@@ -13,7 +13,7 @@ form.addEventListener('submit', function(event) {
     }
 });
 
-// Функция добавления задачи
+
 function addTodo(text) {
     const li = document.createElement('li');
     li.textContent = text;

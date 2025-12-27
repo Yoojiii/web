@@ -1,35 +1,6 @@
 # lab3
 
 ## 3.2. Структура проекта (FSD)
-```
-lab3/
-├── index.html
-├── package.json
-├── postcss.config.js
-├── tailwind.config.js
-├── tsconfig.json
-├── vite.config.ts
-├── src/
-│   ├── app/
-│   │   └── App.tsx
-│   ├── pages/
-│   │   └── MainPage.tsx
-│   ├── widgets/
-│   │   └── TodoWidget.tsx
-│   ├── features/
-│   │   └── AddTodo.tsx
-│   ├── entities/
-│   │   └── TodoList.tsx
-│   ├── shared/
-│   │   └── index.css
-│   └── main.tsx
-```
-- **app** — инициализация приложения, глобальные стили
-- **pages** — страницы (MainPage)
-- **widgets** — крупные UI-блоки (TodoWidget)
-- **features** — пользовательские действия (AddTodo)
-- **entities** — бизнес-сущности (TodoList)
-- **shared** — общие модули и стили
 
 ## 3.3. Typescript
 **tsconfig.json:**

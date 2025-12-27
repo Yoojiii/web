@@ -1,16 +1,5 @@
 # lab2
 
-## 3.2. Структура проекта
-/lab2 – корень проекта
-/lab2/index.html – основной html-файл
-/lab2/webpack.config.js – конфигурация Webpack
-/lab2/dist/ – собранный bundle
-/lab2/src/index.js — точка входа
-/lab2/src/App.jsx — корневой компонент
-/lab2/src/TodoList.jsx — дополнительный компонент
-/lab2/src/style.css — стили
-/lab2/.babelrc — конфигурация Babel
-
 ## 3.3. Webpack
 Конфигурация Webpack:
 ```js
